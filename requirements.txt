@@ -1,0 +1,11 @@
+numpy
+pandas
+tqdm
+matplotlib
+seaborn
+librosa
+soundfile
+scipy
+ffmpeg-python
+cython
+madmom @ git+https://github.com/CPJKU/madmom.git

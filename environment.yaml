@@ -1,0 +1,19 @@
+name: vocal-interaction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - tqdm
+  - matplotlib
+  - seaborn
+  - librosa
+  - soundfile
+  - scipy
+  - pip
+  - ffmpeg         # utile per audio
+  - cython         # a volte necessario per madmom
+  - pip:
+      - git+https://github.com/CPJKU/madmom.git
